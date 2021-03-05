@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #222;
 }
 
 .wrapper {
@@ -113,23 +114,30 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #222;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 
-
+.div-2, .border {
+    border-right: #c5c5c5 1px solid;
+    border-left: #c5c5c5 1px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* ==========================================================================
    Helper classes
